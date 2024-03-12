@@ -7,7 +7,7 @@
 std::map<std::string, std::string> configs();
 std::map<std::string, std::string> config = configs();
 
-std::string work_dir = "/home/cana/src/spm-test/tmp/";
+std::string work_dir = "/tmp/spm/";
 std::string repo_url = config["Repo"];
 
 std::map<std::string, std::string> configs(){	
